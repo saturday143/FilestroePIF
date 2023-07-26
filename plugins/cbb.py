@@ -15,19 +15,6 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                      buttons = [
-            [
-                InlineKeyboardButton('❣️ 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 ❣️', url='https://t.me/BoTzUpdates0')
-            ],
-            [
-                InlineKeyboardButton('⚡ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ⚡', url=f"https://t.me/PanindiaFilmz"),
-            ],
-            [
-                InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
-            ]
-            [
-                InlineKeyboardButton('⚡ 𝐏𝐚𝐧𝐈𝐧𝐝𝐢𝐚𝐅𝐥𝐢𝐦𝐙  ⚡', url=f"https://t.me/PanindiaFilmz"),
-            ]
                 ]
                         InlineKeyboardButton("🔒 Close", callback_data = "close")
                     ]
