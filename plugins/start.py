@@ -126,11 +126,6 @@ async def not_joined(client: Client, message: Message):
                 "Join Channel",
                 url = client.invitelink)
         ]
-        [
-            InlineKeyboardButton(
-                "DevLOVEper",
-                url = f"https://t.me/@PIFOficial_Dev")
-        ]
     ]
     try:
         buttons.append(
